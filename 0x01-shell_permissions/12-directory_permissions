@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir my_dir -m 75l
+mkdir -m 75l my_dir
