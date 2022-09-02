@@ -4,3 +4,4 @@
 3-listfiles lists current working directory files and subdirectories in long format
 4-listfiles lists current working directory hidden files and subdirectories in long format
 5-listfiles lists current working directory hidden files and subdirectories in long format with UIDS
+6-firstdirectory creates a directory named my_first_directory in the /tmp/ directory
