@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This scripts displays 12-hour worthtime per minute
+
+i=0
+
+while [ $i -le 12 ]
+do
+    j=0
+
+    echo "Hour: $i"
+    (( i++ ))
+
+    while [ $j -lt 60 ]
+    do
+	echo "$j"
+	(( j++ ))
+    done
+done
