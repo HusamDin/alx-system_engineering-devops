@@ -2,7 +2,7 @@
 # This script lists the content of the current directory
 # And deletes the shortest substring match from frontof $i
 
-for i in $(ls)
+for i in *
 do
     echo "${i#*-}"
 done
