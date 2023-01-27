@@ -2,7 +2,7 @@
 # This script displays "Best School" 10 times using until
 
 i=0
-until [ $i -gt 10 ]
+until [ $i -ge 10 ]
 do
   echo "Best School"
   (( i++ ))
