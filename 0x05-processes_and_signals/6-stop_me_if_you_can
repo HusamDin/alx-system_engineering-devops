@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script terminates 4-to_infinity_and_beyond process
+# Requirement: kill or killall commands are not allwed
+
+$(pkill -f 4-to_infinity_and_beyond)
