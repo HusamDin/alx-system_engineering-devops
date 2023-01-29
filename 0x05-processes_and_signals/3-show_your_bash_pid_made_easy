@@ -2,9 +2,4 @@
 # This script displays PID along with the process name of processes whose name
 # contain the word bash
 
-pidof /bin/bash > pd
-
-for i in $(cat pd)
-do
-    echo "bash $i"
-done
+pgrep -l bash
